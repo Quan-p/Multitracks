@@ -1,5 +1,10 @@
-$background: #E5E5E5;
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+$background: #fff;
 
 body {
   background-color: $background;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
