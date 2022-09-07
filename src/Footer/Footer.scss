@@ -1,5 +1,6 @@
 $header-color: #FAFAFA;
 
+
 .footer-primary {
     display: flex;
     flex-direction: row;
@@ -9,7 +10,6 @@ $header-color: #FAFAFA;
     order: 0;
     flex-grow: 0;
     background-color: #282828;
-
     h2 {
         color: $header-color;
         font-family: 'Lato';
