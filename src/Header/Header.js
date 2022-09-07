@@ -6,7 +6,7 @@ function Header() {
         <div className='header'>
             <div className='header-content'>
                 <div className='header-left'>
-                    <a href='https://www.multitracks.com/resources/'>
+                    <a className='logo' href='https://www.multitracks.com/resources/'>
                         <img src='https://mtracks.azureedge.net/public/images/site/logo/en/logo-mono.svg' alt='multi-tracks logo'/>
                     </a>
                     <ul className='nav-links'>
