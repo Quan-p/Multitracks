@@ -1,0 +1,29 @@
+$header-color: #FAFAFA;
+
+.footer-primary {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 40px 135px;
+    gap: 30px;
+    order: 0;
+    flex-grow: 0;
+    background-color: #282828;
+
+    h2 {
+        color: $header-color;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+    }
+}
+
+.footer-secondary {
+    background-color: #171717;
+    height: 50px;
+    order: 1;
+    flex-grow: 0;
+}
