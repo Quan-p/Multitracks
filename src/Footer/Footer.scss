@@ -105,8 +105,8 @@ $link-color: #919191;
     display: inline-block;
     border-radius: 4px 0 0 4px;
     border-right-width: 0;
+    border: 1px solid #5C5C5C;
     background-color: #171717;
-    border-color: #171717;
     font-size: 14px;
     height: 40px;
     width: 100%;
@@ -144,6 +144,29 @@ $link-color: #919191;
     border-color: #3996c3;
     background-color: #3996c3;
 }
+
+.support {
+    color: $link-color;
+
+    svg {
+        margin-left: 11px;
+        fill: #919191;
+    }
+}
+
+.contact {
+    width: fit-content;    
+    cursor: pointer;
+}
+
+.contact:hover {
+    color: $header-color;
+
+    svg {
+        fill: $header-color;
+    }
+}
+
 
 .socials {
     display: flex;
