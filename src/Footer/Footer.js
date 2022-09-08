@@ -198,12 +198,17 @@ function Footer() {
                         <div>View FAQs or Contact our Support Team &gt;</div>
                     </div>
                     <div className="socials">
-                        <img src={Facebook} alt="Facebook logo"/>
-                        <img src={Twitter} alt="Twitter logo"/>
-                        <img src={Instagram} alt="Instagram logo"/>
-                        <img src={Youtube} alt="Youtube logo"/>
-                        <img src={Likes} alt="Facebook Likes"/>
-                        <img src={Follow} alt="Twitter Follow"/>
+                        <div className="socials-icons">
+                            <img src={Facebook} alt="Facebook logo"/>
+                            <img src={Twitter} alt="Twitter logo"/>
+                            <img src={Instagram} alt="Instagram logo"/>
+                            <img src={Youtube} alt="Youtube logo"/>
+                        </div>
+                        <div className="socials-bars">
+                            <img src={Likes} alt="Facebook Likes"/>
+                            <img src={Follow} alt="Twitter Follow"/>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
