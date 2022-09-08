@@ -1,4 +1,11 @@
 import React from "react";
+import Facebook from "../Assets/Socials/Facebook.png";
+import Twitter from "../Assets/Socials/Twitter.png";
+import Instagram from "../Assets/Socials/Instagram.png";
+import Youtube from "../Assets/Socials/YouTube.png";
+import Likes from "../Assets/Socials/Likes.png";
+import Follow from "../Assets/Socials/Follow.png";
+
 import "./Footer.scss";
 
 function Footer() {
@@ -178,13 +185,23 @@ function Footer() {
                     </div>
                 </div>
                 <div className="newsletter">
-
+                    <h1>Subscribe to our Newsletter</h1>
+                    <div className="email-input">
+                        <input className="input-box" placeholder="Email Address"/>
+                        <button className="sub-button">Subscribe</button>
+                    </div>
                 </div>
                 <div className="support">
-
+                    <h1>Have a Problem?</h1>
+                    <div>View FAQs or Contact our Support Team &gt;</div>
                 </div>
                 <div className="socials">
-
+                    <img src={Facebook} alt="Facebook logo"/>
+                    <img src={Twitter} alt="Twitter logo"/>
+                    <img src={Instagram} alt="Instagram logo"/>
+                    <img src={Youtube} alt="Youtube logo"/>
+                    <img src={Likes} alt="Facebook Likes"/>
+                    <img src={Follow} alt="Twitter Follow"/>
                 </div>
             </div>
             <div className="footer-secondary">
