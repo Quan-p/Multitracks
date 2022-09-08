@@ -205,8 +205,8 @@ function Footer() {
                             <img src={Youtube} alt="Youtube logo"/>
                         </div>
                         <div className="socials-bars">
-                            <img src={Likes} alt="Facebook Likes"/>
-                            <img src={Follow} alt="Twitter Follow"/>
+                            <img src={Likes} id="likes" alt="Facebook Likes"/>
+                            <img src={Follow} id="follows" alt="Twitter Follow"/>
                         </div>
                         
                     </div>

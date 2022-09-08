@@ -160,6 +160,13 @@ $link-color: #919191;
     
     .socials-bars {
         float: right;
+        
+        #likes {
+            margin-right: 8px;
+        }
+        #follows {
+            margin-left: 8px;
+        }
     }
 }
 
