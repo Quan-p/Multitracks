@@ -177,6 +177,15 @@ function Footer() {
                         </ul>
                     </div>
                 </div>
+                <div className="newsletter">
+
+                </div>
+                <div className="support">
+
+                </div>
+                <div className="socials">
+
+                </div>
             </div>
             <div className="footer-secondary">
 
