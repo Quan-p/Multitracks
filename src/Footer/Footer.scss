@@ -194,10 +194,26 @@ $link-color: #919191;
     }
 }
 
+@media screen and (min-width: 768px) {
+    .footer-secondary-content {
+        max-width: 1170px;
+        display: grid;
+        align-items: center;
+        grid-template-rows: 30px;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+        grid-row-gap: 15px;
+    }
+}
+
 .footer-secondary {
     background-color: #171717;
     color: $link-color;
-    height: 50px;
-    order: 1;
-    flex-grow: 0;
+    padding: 15px;
+    
+
+    .footer-secondary-content {
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
 }
