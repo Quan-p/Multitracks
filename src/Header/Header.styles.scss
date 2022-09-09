@@ -8,7 +8,8 @@ $text-color: #919191;
     border-bottom: 1px solid #dadada;
     padding: 19px 15px;
     overflow: hidden;
-
+    font-family: 'Lato';
+    font-size: 18px;
     .header-content {
         display: flex;
         text-align: center;
@@ -51,10 +52,14 @@ $text-color: #919191;
         }
     }
 
+    #covid {
+        color: $hover-color;
+    }
+
     .nav-list-items:hover {
         color: $hover-color;
     }
-    
+
     .nav-list-items:hover svg {
         fill: $hover-color;
     }
@@ -86,7 +91,7 @@ $text-color: #919191;
     border: 2px solid #dadada;
     box-shadow: 0 0 7px 0 rgb(0 0 0 / 10%);
     background-color: white;
-    z-index: 1;
+    z-index: 10;
     position: absolute;
     display: none;
     width: 241px;
@@ -110,12 +115,14 @@ $text-color: #919191;
     border-radius: 5px;
     background-color: #fafafa;
     color: $hover-color;
-    transform: translateX(0);
     transition: all 50ms ease;
 }
 
-#product:hover .dropdown-content {display: block;}
 
+#product:hover .dropdown-content {display: block;}
+#songs:hover .dropdown-content {display: block;}
+#sounds:hover .dropdown-content {display: block;}
+#more:hover .dropdown-content {display: block;}
 
 .header-right {
     display: flex;
