@@ -215,6 +215,42 @@ $link-color: #919191;
         margin: 0 auto;
         justify-content: space-between;
 
+        .copyright {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+        }
+
+        .terms {
+            font-size: 14px;
+            font-family: "Lato";
+            font-weight: 400;
+            line-height: 150%;            
+
+            a {
+                color: $link-color; 
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+            a:link {
+                 text-decoration: none;
+            }
+               
+            a:visited {
+                 text-decoration: none;
+            }
+               
+            a:hover {
+                 color: #3996c3;
+            }
+               
+            a:active {
+                 text-decoration: none;
+            }
+        }
+
         .language {
             display: inline-block;
             position: relative;
@@ -226,6 +262,8 @@ $link-color: #919191;
                 appearance: none;
                 border: none;
                 margin-left: 14px;
+                font-family: 'FreightSans Pro';
+                font-style: normal;
                 font-weight: 500;
                 font-size: 17px;
                 line-height: 20px;
