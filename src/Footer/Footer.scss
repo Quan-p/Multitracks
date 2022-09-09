@@ -180,6 +180,14 @@ $link-color: #919191;
         grid-auto-flow: column;
         grid-auto-columns: 26px;
         float: left;
+
+        svg {
+            fill: #919191;
+        }
+
+        svg:hover {
+            fill: #9e9e9e;
+        }
     }
     
     .socials-bars {
