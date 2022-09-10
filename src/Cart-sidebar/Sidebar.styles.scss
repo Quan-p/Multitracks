@@ -1,5 +1,34 @@
+$text-color: #919191;
+
 .sidebar {
-    background-color: gray;
+    background-color: #FAFAFA;
     max-width: 33%;
     width: fit-content;
+    font-family: 'Lato';
+}
+
+h3 {
+    margin: 80px 85px 80px 75px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 100%;
+}
+
+.order-details {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 75px;
+    margin-right: 75px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+
+    .credit-val {
+        color: $text-color;
+    }
+}
+
+#account {
+    margin-bottom: 8px;
 }
