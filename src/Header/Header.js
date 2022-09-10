@@ -115,6 +115,18 @@ function Header() {
                             </a>
                         </li>
                         <li className='nav-list-items'>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="19.5" height="15.4" className="navigation-links--item--icon">
+                                    <defs>
+                                        <symbol xmlns="http://www.w3.org/2000/svg" id="cart" viewBox="0 0 19.5 15.4">
+                                            <path d="M16.5 10H5.4c-.4 0-.8-.3-.9-.7L2.7 1.9H1c-.5 0-1-.4-1-1s.4-1 1-1h2.5c.4 0 .8.3.9.7l.3 1.2h13.8c.3 0 .6.1.8.4.2.2.2.6.1.9l-2 6.1c-.1.5-.5.8-.9.8zM6.2 8.1h9.6l1.4-4.2h-12l1 4.2z"></path>
+                                            <circle cx="16.2" cy="13.5" r="1.9"></circle>
+                                            <circle cx="5.8" cy="13.5" r="1.9"></circle>
+                                        </symbol>
+                                    </defs>
+                                    <use xmlnsXlink="http://www.w3.org/1999/xlink" xlinkHref="#cart"></use>
+                                </svg>
+                            </span>
                             <a href='https://www.multitracks.com/cart/'>
                                 Cart
                             </a>
