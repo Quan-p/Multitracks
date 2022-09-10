@@ -110,13 +110,18 @@ function Header() {
                 <div className='header-right'>
                     <ul className='nav-links'>
                         <li className='nav-list-items'>
+                            <span>
+                                <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.00001 2C6.3841 2 5.08553 3.29949 5.08553 4.88849C5.08553 6.47749 6.3841 7.77698 8.00001 7.77698C9.61592 7.77698 10.9145 6.4775 10.9145 4.88849C10.9145 3.29949 9.61592 2 8.00001 2ZM3.08553 4.88849C3.08553 2.18238 5.29212 0 8.00001 0C10.7079 0 12.9145 2.18239 12.9145 4.88849C12.9145 7.5946 10.7079 9.77698 8.00001 9.77698C5.29212 9.77698 3.08553 7.5946 3.08553 4.88849ZM0 14.8041C0 12.5301 1.85861 10.6934 4.13158 10.6934H11.7418C14.07 10.6934 16 12.585 16 14.9299V16.3252C16 17.2612 15.2467 18 14.3207 18H1.67928C0.753359 18 0 17.2612 0 16.3252V14.8041ZM4.13158 12.6934C2.9506 12.6934 2 13.6472 2 14.8041V16H14V14.9299C14 13.7067 12.9826 12.6934 11.7418 12.6934H4.13158Z" />
+                                </svg>
+                            </span>
                             <a href='https://www.multitracks.com/register/'>
                                 Account
                             </a>
                         </li>
                         <li className='nav-list-items'>
                             <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="19.5" height="15.4" className="navigation-links--item--icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="19.5" height="15.4">
                                     <defs>
                                         <symbol xmlns="http://www.w3.org/2000/svg" id="cart" viewBox="0 0 19.5 15.4">
                                             <path d="M16.5 10H5.4c-.4 0-.8-.3-.9-.7L2.7 1.9H1c-.5 0-1-.4-1-1s.4-1 1-1h2.5c.4 0 .8.3.9.7l.3 1.2h13.8c.3 0 .6.1.8.4.2.2.2.6.1.9l-2 6.1c-.1.5-.5.8-.9.8zM6.2 8.1h9.6l1.4-4.2h-12l1 4.2z"></path>
@@ -131,7 +136,18 @@ function Header() {
                                 Cart
                             </a>
                         </li>
+
                         <li className='nav-list-items'>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="19" height="18">
+                                    <defs>
+                                        <symbol xmlns="http://www.w3.org/2000/svg" id="support" viewBox="0 0 19 18" xmlSpace="preserve">
+                                            <path d="M16.9 5.6h-.6C15.8 2.3 13 0 9.5 0S3.2 2.3 2.7 5.6h-.6c-.9 0-1.7.8-1.7 1.7v3.5c0 .9.8 1.7 1.7 1.7h3.7c.6 0 1-.4 1-1V6.6c0-.6-.4-1-1-1H4.7C5.2 3.5 7.1 2 9.5 2s4.3 1.5 4.8 3.6h-1.1c-.6 0-1 .4-1 1v4.9c0 .6.4 1 1 1h1.1c-.3 1.2-1.1 1.9-2.2 2.3-.4-.5-.9-.8-1.6-.8H8.4c-1.1 0-2 .9-2 2s.9 2 2 2h2.1c.8 0 1.6-.5 1.9-1.3 2.3-.6 3.7-2.1 3.9-4.3h.6c.9 0 1.7-.8 1.7-1.7V7.3c0-1-.8-1.7-1.7-1.7zM4.8 10.5H2.4V7.6h2.4v2.9zm11.8 0h-2.4V7.6h2.4v2.9z"></path>
+                                        </symbol>
+                                    </defs>
+                                    <use xmlnsXlink="http://www.w3.org/1999/xlink" xlinkHref="#support"></use>
+                                </svg>
+                            </span>
                             Support
                         </li>
                         <li className='nav-list-items'>

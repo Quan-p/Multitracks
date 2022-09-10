@@ -9,7 +9,6 @@ $text-color: #919191;
     padding: 19px 15px;
     overflow: hidden;
     font-family: 'Lato';
-    font-size: 18px;
     .header-content {
         display: flex;
         text-align: center;
@@ -19,6 +18,24 @@ $text-color: #919191;
         width: 100%;
         justify-content: space-between;
         color: $text-color;
+    }
+}
+
+@media (min-width: 1024px) {
+    .nav-links {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1078px) {
+    .nav-links {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1382px) {
+    .nav-links {
+        font-size: 18px;
     }
 }
 
