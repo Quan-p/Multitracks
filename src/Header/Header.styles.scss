@@ -3,12 +3,14 @@ $text-color: #919191;
 .header {
     box-sizing: border-box;
     display: flex;
+    align-items: center;
     background-color: #fff;
     height: 78px; 
     border-bottom: 1px solid #dadada;
     padding: 19px 15px;
     overflow: hidden;
     font-family: 'Lato';
+
     .header-content {
         display: flex;
         text-align: center;
@@ -147,12 +149,14 @@ $text-color: #919191;
 
     .right-svg {
         fill: #dadada;
+        margin: 4px 6px 0 0;
     }
 }
 
 .right-nav-link {
     display: flex;
     align-items: center;
+    height: auto;
 }
 
 .search-bar {
@@ -185,6 +189,10 @@ $text-color: #919191;
     height: 20px;
     object-fit: cover;
     cursor: pointer;
+}
+
+#magnify-glass {
+    vertical-align: middle;
 }
 
 .search-button svg:hover {
