@@ -12,7 +12,6 @@ $text-color: #919191;
     .header-content {
         display: flex;
         text-align: center;
-        align-items: center;
         margin: 0 auto;
         max-width: 100%;
         width: 100%;
@@ -63,7 +62,7 @@ $text-color: #919191;
             text-decoration: none;
         }
 
-        svg {
+        .dropdown-arrow {
             fill: $text-color;
             vertical-align: middle;
         }
@@ -145,11 +144,22 @@ $text-color: #919191;
     display: flex;
     align-items: center;
     float: right;
+
+    .right-svg {
+        fill: #dadada;
+    }
+}
+
+.right-nav-link {
+    display: flex;
+    align-items: center;
 }
 
 .search-bar {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .search-field {
