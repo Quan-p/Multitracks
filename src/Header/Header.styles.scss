@@ -78,7 +78,7 @@ $text-color: #919191;
         color: $hover-color;
     }
 
-    .nav-list-items:hover svg {
+    .nav-list-items:hover .dropdown-arrow {
         fill: $hover-color;
     }
 }
@@ -195,6 +195,11 @@ $text-color: #919191;
     vertical-align: middle;
 }
 
-.search-button svg:hover {
-    fill: $hover-color;
+.right-nav-link:hover {
+    .right-nav-text {
+        color: $hover-color;
+    }
+    .right-svg {
+        fill: $hover-color;
+    }
 }
