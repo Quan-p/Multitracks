@@ -79,9 +79,12 @@ function Sidebar() {
                     All sales are final.
                 </div>
             </div>
-            <button className="place-order-btn">
+            <div className="btn-container">
+                <button className="place-order-btn">
                 Place Order
             </button>
+            </div>
+            
             <div className="order-terms">
                 By placing your order, you agree to the Terms of Use and Privacy Policy.
             </div>
