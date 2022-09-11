@@ -24,11 +24,76 @@ h3 {
     font-weight: 700;
     line-height: 24px;
 
-    .credit-val {
+    .num-val {
         color: $text-color;
     }
 }
 
 #account {
     margin-bottom: 8px;
+}
+
+.promo {
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 32px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #dadada;
+}
+
+.subtotal {
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.tax, .payment {
+    padding-bottom: 32px;
+    border-bottom: 1px solid #dadada;
+}
+
+.total {
+    margin-top: 32px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #dadada;
+
+    .total-val {
+        color: black;
+    }
+}
+
+.disclaimer {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.place-order-btn {
+    border-radius: 50px;
+    background: #43B1E6;
+    color: white;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    padding: 16px 64px 16px 64px;
+    border: none;
+    margin-left: 75px;
+    margin-bottom: 16px;
+    width: 312px;
+}
+
+.order-terms {
+    color: #B6B6B6;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 48px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 200px;
 }
