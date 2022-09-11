@@ -51,6 +51,7 @@ h3 {
     border-bottom: 1px solid #dadada;
 }
 
+
 .total {
     margin-top: 32px;
     padding-bottom: 32px;
@@ -59,6 +60,10 @@ h3 {
     .total-val {
         color: black;
     }
+}
+
+.payment-change {
+    color: #43B1E6;
 }
 
 .disclaimer {
@@ -102,10 +107,15 @@ h3 {
     font-size: 16px;
     line-height: 19px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     text-align: center;
+    justify-content: center;
     height: 48px;
     margin-left: 75px;
     margin-right: 75px;
     margin-bottom: 200px;
+    a {
+        color: #B6B6B6;
+    }
 }
