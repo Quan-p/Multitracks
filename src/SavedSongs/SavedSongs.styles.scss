@@ -1,0 +1,31 @@
+#saved-header {
+    margin-bottom: 32px;
+}
+
+.saved-item {
+    padding: 0px 14px 32px 14px;
+}
+
+.saved-art {
+    margin: 0 16px 0 0;
+}
+
+.add-cart {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.add-cart-btn {
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 9px 24px;
+    margin: 0 16px;
+    border: 1px solid #919191;
+    color: #919191;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+}

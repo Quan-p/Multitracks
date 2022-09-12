@@ -1,5 +1,6 @@
 import React from "react";
 import Sidebar from "../Cart-sidebar/Sidebar";
+import SavedSongs from "../SavedSongs/SavedSongs";
 import song01 from "../Assets/Cart Songs/song01.png";
 import song02 from "../Assets/Cart Songs/song02.png";
 import './Cart.styles.scss';
@@ -75,6 +76,7 @@ function Cart() {
                     </svg>
                     Continue Shopping
                 </div>
+                <SavedSongs />
             </div>
             
             <Sidebar />
