@@ -1,9 +1,6 @@
-#saved-header {
-    margin-bottom: 32px;
-}
-
 .saved-item {
     padding: 0px 14px 32px 14px;
+    margin-top: 32px;
 }
 
 .saved-art {
@@ -28,4 +25,9 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 100%;
+    cursor: pointer;
+}
+
+.add-cart-btn:hover {
+    background-color: #DADADA;
 }

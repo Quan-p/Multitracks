@@ -99,7 +99,6 @@ $text-color: #828282;
 
 @media screen and (min-width: 768px) {
     .cart-item {
-        background-color: azure;
         display: grid;
         grid-template-columns: minmax(0, 4fr) minmax(0, 3fr) minmax(0, 3fr); 
     }
