@@ -74,6 +74,25 @@ $text-color: #828282;
     grid-column-end: 4;
 }
 
+.continue-shopping {
+    text-align: left;
+    width: fit-content;
+    margin: 16px 9px 64px 0;
+    color: #43B1E6;
+    cursor: pointer;
+    .back-arrow {
+        fill:#43B1E6;
+        margin-right: 9px;
+    }
+}
+
+.continue-shopping:hover {
+    color: #3996c3;
+    .back-arrow {
+        fill: #3996c3;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .cart-item {
         background-color: azure;
