@@ -1,6 +1,7 @@
 import React from "react";
 import Sidebar from "../Cart-sidebar/Sidebar";
 import song01 from "../Assets/Cart Songs/song01.png";
+import song02 from "../Assets/Cart Songs/song02.png";
 import './Cart.styles.scss';
 
 function Cart() {
@@ -37,7 +38,7 @@ function Cart() {
                         </li>
                         <li className="cart-item">
                             <div className="song-info">
-                                    <img src={song01} alt="song art" className="song-art"/>
+                                    <img src={song02} alt="song art" className="song-art"/>
                                     <div>
                                         <a href="https://www.multitracks.com/songs/Elevation-Worship/Graves-Into-Gardens/Graves-Into-Gardens/">
                                             Graves into Gardens
