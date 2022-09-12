@@ -1,3 +1,5 @@
+$text-color: #828282;
+
 .cart {
     display: flex;
     flex-wrap: nowrap;
@@ -9,8 +11,11 @@
     max-width: 100%;
 }
 
+.cart-header {
+    margin: 0 0 64px 0;
+}
+
 .cart-content {
-    background-color: aqua;
     width: 705%;
     margin: 80px 30px 80px 45px;
 }
@@ -20,18 +25,59 @@
 }
 
 .cart-item {
+    color: $text-color;
     list-style: none;
-    padding: 0px 14px 0px 14px;
+    padding: 0px 14px 48px 14px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    align-items: center;
+    border-bottom: 1px solid #DADADA;
+}
+
+.song-info, .song-type {
+    display: flex;
+    align-items: center;
+}
+
+.song-type {
+    color: #919191;
+    fill: #919191;
+    svg {
+        margin-right: 8.88px;
+    }
 }
 
 .song-info {
-    display: flex;
+    .song-art {
+        margin: 16px 16px 16px 0;
+    }
+
+    a {
+        text-decoration: none;
+        line-height: 125%;
+        color: black;
+    }
+}
+
+.cost-data {
+    text-align: right;
+
+    .credit {
+        color: black;
+    }
+}
+
+.edit-song {
+    text-align: right;
+    grid-column-end: 4;
 }
 
 @media screen and (min-width: 768px) {
     .cart-item {
+        background-color: azure;
         display: grid;
         grid-template-columns: minmax(0, 4fr) minmax(0, 3fr) minmax(0, 3fr); 
-        background-color: gray;   
     }
 }
