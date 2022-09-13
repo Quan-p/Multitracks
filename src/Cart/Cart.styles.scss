@@ -30,7 +30,6 @@ $text-color: #828282;
     padding: 0px 14px 48px 14px;
     font-family: 'Lato';
     font-style: normal;
-    font-weight: 700;
     font-size: 16px;
     align-items: center;
     border-bottom: 1px solid #DADADA;
@@ -44,6 +43,8 @@ $text-color: #828282;
 .song-type {
     color: #919191;
     fill: #919191;
+    font-weight: 700;
+
     svg {
         margin-right: 8.88px;
     }
@@ -58,6 +59,7 @@ $text-color: #828282;
         text-decoration: none;
         line-height: 125%;
         color: black;
+        font-weight: 700;
     }
 
     a:hover {
@@ -67,6 +69,7 @@ $text-color: #828282;
 
 .cost-data {
     text-align: right;
+    font-weight: 700;
 
     .credit {
         color: black;
@@ -76,6 +79,21 @@ $text-color: #828282;
 .edit-song {
     text-align: right;
     grid-column-end: 4;
+
+    .x-close {
+        display: hidden;
+    }
+}
+
+.save-btn {
+    border: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: transparent;
+    color: $text-color;
 }
 
 .continue-shopping {
@@ -112,6 +130,11 @@ $text-color: #828282;
             height: fit-content;
         }
 
+        .cart-item {
+            position: relative;
+            padding-bottom: 0;
+        }
+
         .song-info img {
             width: 48px;
             height: 48px;
@@ -127,6 +150,33 @@ $text-color: #828282;
         .song-type svg {
             width: 20px;
             height: 20px;
+        }
+
+        .edit-song .save-btn {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 100%;
+            border-radius: 50px;
+            padding: 9px 24px;
+            border: 1px solid #828282;
+            margin: 16px 0;
+        }
+        
+        .edit-song {
+            .spacer {
+                display: none;
+            }
+        }
+        .x-close {
+            position: absolute;
+            top: 12%;
+            right:0;
+        }
+
+        .remove-btn {
+            display: none;
         }
     }
 }
