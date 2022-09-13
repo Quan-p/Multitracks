@@ -4,9 +4,9 @@ import save02 from "../Assets/Saved/save02.png";
 import save03 from "../Assets/Saved/save03.png";
 import './SavedSongs.styles.scss';
 
-function SavedSongs() {
+function SavedSongsMobile() {
     return (
-        <div className="left-column saved-songs">
+        <div className="saved-songs-mobile">
             <h4 id="saved-header">Saved for Later</h4>
             <div className="cart-item-container">
                     <ul className="cart-item-list">
@@ -79,4 +79,4 @@ function SavedSongs() {
     )
 }
 
-export default SavedSongs;
+export default SavedSongsMobile;

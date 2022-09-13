@@ -81,7 +81,7 @@ $text-color: #828282;
     grid-column-end: 4;
 
     .x-close {
-        display: hidden;
+        display: none;
     }
 }
 
@@ -141,7 +141,10 @@ $text-color: #828282;
         }
 
         .song-type {
-            display: inline-block;
+            display: inline-flex;
+            span {            
+                text-align: center;
+            }
         }
         .cost-data {
             float: right;
@@ -170,6 +173,7 @@ $text-color: #828282;
             }
         }
         .x-close {
+            display: flex;
             position: absolute;
             top: 12%;
             right:0;
@@ -179,11 +183,19 @@ $text-color: #828282;
             display: none;
         }
     }
+
+    .saved-songs {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 768px) {
     .cart-item {
         display: grid;
         grid-template-columns: minmax(0, 4fr) minmax(0, 3fr) minmax(0, 3fr); 
+    }
+
+    .saved-songs-mobile {
+        display: none;
     }
 }

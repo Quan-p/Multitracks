@@ -4,11 +4,12 @@ import SavedSongs from "../SavedSongs/SavedSongs";
 import song01 from "../Assets/Cart Songs/song01.png";
 import song02 from "../Assets/Cart Songs/song02.png";
 import './Cart.styles.scss';
+import SavedSongsMobile from "../SavedSongs/SavedSongs Mobile";
 
 function Cart() {
     return (
         <div className="cart">
-            <div className="column cart-content">
+            <div className="left-column column cart-content">
                 <h3 className="cart-header">My Cart</h3> 
                 <div className="cart-item-container">
                     <ul className="cart-item-list">
@@ -88,8 +89,8 @@ function Cart() {
                 </div>
                 <SavedSongs />
             </div>
-            
             <Sidebar />
+            <SavedSongsMobile />
         </div>
     )
 }
