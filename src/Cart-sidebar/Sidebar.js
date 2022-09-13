@@ -51,7 +51,7 @@ function Sidebar() {
             </div>
             <div className="order-details total">
                 <div>
-                    Total
+                    TOTAL
                 </div>
                 <span className="num-val total-val">
                     41

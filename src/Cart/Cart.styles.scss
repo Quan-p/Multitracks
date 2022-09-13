@@ -17,6 +17,7 @@ $text-color: #828282;
 
 .cart-content {
     margin: 80px 30px 80px 45px;
+    width: 100%;
 }
 
 .sidebar {
@@ -121,7 +122,7 @@ $text-color: #828282;
         overflow-y: scroll;
         .cart-content {
             margin: 28px 16px 0 16px;
-            height: 100%;
+            width: unset;
         }
 
         .column {
@@ -179,6 +180,48 @@ $text-color: #828282;
 
         .remove-btn {
             display: none;
+        }
+
+        .continue-shopping {
+            margin-bottom: 40px;
+        }
+
+        .sidebar {
+            width: 100%;
+            h3 {
+                margin: 40px 44px 32px 16px;
+            }
+
+            .order-details {
+                margin: 8px 24px;
+            }
+
+            .promo {
+                margin: 16px 24px;
+                padding-bottom: 16px;
+            }
+
+            .tax, .payment {
+                padding-bottom: 16px;
+            }
+
+            .total {
+                margin-top: 16px;
+                margin-bottom: 16px;
+                padding-bottom: 16px;
+            }
+
+            .disclaimer {
+                margin-top: 16px;
+                margin-bottom: 16px;
+            }
+
+            .order-terms {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 150%;
+                margin: 16px 30px 40px 30px;
+            }
         }
     }
 
