@@ -4,6 +4,7 @@ import './Header/Header';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import Cart from './Cart/Cart';
+import StickyFooter from './Sticky Footer/StickyFooter';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Cart />
         </div>
         <Footer />
+        <StickyFooter />
     </div>
   );
 }
