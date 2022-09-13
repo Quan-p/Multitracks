@@ -6,7 +6,7 @@ import "./Footer.scss";
 
 function Footer() {
     return (
-        <div className="footer-container">
+        <footer className="footer-container">
             <div className="footer-primary">
                 <div className="footer-grid">
                     <div className="footer-left-col">
@@ -86,7 +86,7 @@ function Footer() {
                                 <li>
                                     <a href="https://www.multitracks.com/discovery/">
                                         Songs
-                                    </a>
+                                     </a>
                                 </li>
                                 <li>
                                     <a href="https://www.multitracks.com/products/sounds/">
@@ -228,8 +228,8 @@ function Footer() {
                             <img src={Likes} id="likes" alt="Facebook Likes"/>
                             <img src={Follow} id="follows" alt="Twitter Follow"/>
                         </div>
-                        
                     </div>
+                    
                 </div>
             </div>
             <div className="footer-secondary">
@@ -260,7 +260,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-        </div>
+        </footer>
             
     )
 }
