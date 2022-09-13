@@ -31,7 +31,9 @@ body {
 
 @media screen and (max-width: 768px){
   .App {
+    display: flex;
+    flex-direction: column;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
   }
 }

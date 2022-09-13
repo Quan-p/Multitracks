@@ -16,7 +16,7 @@ $text-color: #828282;
 }
 
 .cart-content {
-    width: 705%;
+    width: 100%;
     margin: 80px 30px 80px 45px;
 }
 
@@ -94,6 +94,40 @@ $text-color: #828282;
     color: #3996c3;
     .back-arrow {
         fill: #3996c3;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cart {
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        .cart-content {
+            margin: 28px 16px 0 16px;
+            height: 100%;
+        }
+
+        .column {
+            width: 92%;
+            height: fit-content;
+        }
+
+        .song-info img {
+            width: 48px;
+            height: 48px;
+        }
+
+        .song-type {
+            display: inline-block;
+        }
+        .cost-data {
+            float: right;
+        }
+
+        .song-type svg {
+            width: 20px;
+            height: 20px;
+        }
     }
 }
 
