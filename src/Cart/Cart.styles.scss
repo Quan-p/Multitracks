@@ -225,6 +225,35 @@ $text-color: #828282;
         }
     }
 
+    .saved-songs-mobile {
+        #saved-header {
+            margin: 40px 16px;
+        }
+        
+        .saved-item {
+            margin: 32px 16px;
+            padding-bottom: 36px;
+        }
+
+        .song-type {
+            float: left;
+            margin-top: 20px;
+            font-weight: 700;
+            font-size: 14px;
+
+            svg {
+                width: 20px;
+                height: 20px;
+            }
+        }
+        .add-cart-btn {
+            display: inline;
+            float: right;
+            margin-top: 16px;
+            margin-right: 0;
+        }
+    }
+
     .saved-songs {
         display: none;
     }
