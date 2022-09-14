@@ -141,6 +141,26 @@ $text-color: #919191;
     height: auto;
 }
 
+.badge {
+        padding-left: 9px;
+        padding-right: 9px;
+        -webkit-border-radius: 9px;
+        -moz-border-radius: 9px;
+        border-radius: 50%;
+    }
+
+    #cartCount {
+        top: 1.5%;
+        font-size: 12px;
+        font-weight: 600;
+        background: $hover-color;
+        color: #ffffff;
+        padding: 0 4px;
+        vertical-align: top;
+        margin-left: -10px; 
+
+}
+
 .search-bar {
     display: flex;
     flex-direction: row;
@@ -212,6 +232,10 @@ $text-color: #919191;
     .header {
         width: 100%;
         
+        #cartCount {
+            display: none;
+        }
+
         .header-content {
             display: grid;
             grid-template-columns: minmax(0,1fr) 40px minmax(0,1fr);

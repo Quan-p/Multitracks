@@ -139,6 +139,7 @@ function Header() {
                                         </defs>
                                         <use xmlnsXlink="http://www.w3.org/1999/xlink" xlinkHref="#cart"></use>
                                     </svg>
+                                    <span class='badge badge-warning' id='cartCount'> 2 </span>
                                 </span>
                                 <span className='right-nav-text'>Cart</span>
                             </a>
