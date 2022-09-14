@@ -11,6 +11,7 @@ $ npm install
 This installs the required dependencies
 
 To run the React project.
+
 $ npm start
 
 ## Github
