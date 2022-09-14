@@ -20,7 +20,7 @@ function Sidebar() {
                     Credits required
                 </div>
                 <span className="num-val">
-                    234
+                    41
                 </span>
             </div>
             <div className="order-details promo">
@@ -81,7 +81,7 @@ function Sidebar() {
             </div>
             <div className="btn-container">
                 <button className="place-order-btn">
-                Place Order
+                PLACE ORDER
             </button>
             </div>
             
