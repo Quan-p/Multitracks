@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Check out the deployed website here without having to download anything
+
+https://merry-pika-dfc900.netlify.app/
+
 ## How to Install
 
 Open terminal and cd into the project folder and type
